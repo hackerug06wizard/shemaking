@@ -1,4 +1,4 @@
-import { ArtistProfile } from "./components/ui/artist-profile.tsx"
+import { ArtistProfile } from "./components/ui/artist-profile"
 import { SongList } from "./components/ui/song-list.tsx"
 import { UpcomingEvents } from "./components/ui/upcoming-events.tsx"
 import { AnimatedHeading } from "./components/ui/animated-heading.tsx"
