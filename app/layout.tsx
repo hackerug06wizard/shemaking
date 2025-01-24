@@ -1,5 +1,5 @@
-import { NavBar } from "@/components/nav-bar"
-import "@/styles/globals.css"
+import { NavBar } from "./components/nav-bar.tsx"
+import "./styles/globals.css"
 import { Inter } from "next/font/google"
 
 const inter = Inter({ subsets: ["latin"] })
