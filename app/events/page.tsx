@@ -1,5 +1,5 @@
-import { AnimatedHeading } from "./components/ui/animated-heading.tsx"
-import { UpcomingEvents } from "./components/ui/upcoming-events.tsx"
+import { AnimatedHeading } from "@/components/animated-heading"
+import { UpcomingEvents } from "@/components/upcoming-events"
 
 export default function Events() {
   return (
@@ -10,5 +10,4 @@ export default function Events() {
     </main>
   )
 }
-
 
