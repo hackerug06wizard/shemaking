@@ -1,5 +1,4 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card"
-import { AnimatedHeading } from "@/components/animated-heading"
+import { AnimatedHeading } from "./components/animated-heading"
 
 export function ArtistProfile() {
   return (
