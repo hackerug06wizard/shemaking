@@ -1,6 +1,6 @@
-import { NavBar } from "./components/nav-bar.tsx"
-import "./styles/globals.css"
+import "@/styles/globals.css"
 import { Inter } from "next/font/google"
+import { NavBar } from "@/components/nav-bar"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -16,10 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.className} bg-gray-900 text-gray-100`}>
+      <body className={`${inter.className} bg-gray-900 text-gray-100 min-h-screen`}>
         <NavBar />
         {children}
       </body>
     </html>
   )
-  }
+}
+
