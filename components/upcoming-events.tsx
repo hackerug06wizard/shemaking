@@ -1,5 +1,5 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card"
-import { AnimatedHeading } from "@/components/animated-heading"
+import { Card, CardContent, CardHeader } from "./components/ui/card"
+import { AnimatedHeading } from "./components/animated-heading"
 
 const events = [
   { date: "2023-07-15", venue: "Central Park", city: "New York, NY" },
