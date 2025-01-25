@@ -1,5 +1,5 @@
-import { AnimatedHeading } from "@/components/ui/animated-heading.tsx"
-import { SongList } from "@/components/ui/song-list.tsx"
+import { AnimatedHeading } from "@/components/animated-heading"
+import { SongList } from "@/components/song-list"
 
 export default function Music() {
   return (
@@ -11,4 +11,3 @@ export default function Music() {
   )
 }
 
-    
