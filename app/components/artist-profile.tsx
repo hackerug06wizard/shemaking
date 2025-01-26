@@ -1,4 +1,4 @@
-import { AnimatedHeading } from "./components/animated-heading"
+import { AnimatedHeading } from "./app/components/animated-heading"
 
 export function ArtistProfile() {
   return (
