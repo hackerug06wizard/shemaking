@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader } from "./app/components/ui/card"
+import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Music, Download } from "lucide-react"
 import { AnimatedHeading } from "./app/components/animated-heading"
